@@ -15,8 +15,7 @@ def check_plant_health(plant_name, water_level, sunlight_hours):
         print("\nTesting bad sunlight hours...")
         raise ValueError(
             "Error: Sunlight hours " + str(sunlight_hours) + " is too low (min\
- 2)"
-            )
+ 2)")
 
     return "Testing good values...\nPlant " + plant_name + " is healthy!"
 
